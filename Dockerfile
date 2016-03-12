@@ -1,7 +1,7 @@
 FROM haproxy:1.5
 
-ENV SS_IP 0.0.0.0
-ENV SS_PORT 8888
+ENV inIp 0.0.0.0
+ENV inPort 8888
 
 EXPOSE 8000
 
